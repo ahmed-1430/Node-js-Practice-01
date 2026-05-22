@@ -1,12 +1,5 @@
 [
     {
-        "id": 1,
-        "name": "Wireless Ergonomic Mouse",
-        "price": 49.99,
-        "category": "Electronics",
-        "inStock": true
-    },
-    {
         "id": 2,
         "name": "Mechanical Gaming Keyboard",
         "price": 89.99,
@@ -16,7 +9,7 @@
     {
         "id": 3,
         "name": "Leather Passport Wallet",
-        "price": 34.50,
+        "price": 34.5,
         "category": "Accessories",
         "inStock": true
     },
@@ -37,14 +30,14 @@
     {
         "id": 6,
         "name": "Minimalist Backpack",
-        "price": 65.00,
+        "price": 65,
         "category": "Accessories",
         "inStock": true
     },
     {
         "id": 7,
         "name": "Organic Cotton T-Shirt",
-        "price": 18.00,
+        "price": 18,
         "category": "Apparel",
         "inStock": true
     },
@@ -58,15 +51,22 @@
     {
         "id": 9,
         "name": "Ceramic Coffee Mug",
-        "price": 12.50,
+        "price": 12.5,
         "category": "Kitchen",
         "inStock": true
     },
     {
         "id": 10,
         "name": "Desk Leather Pad",
-        "price": 28.00,
+        "price": 28,
         "category": "Office",
+        "inStock": true
+    },
+    {
+        "id": 1779489948532,
+        "name": "Wireless Ergonomic Mouse",
+        "price": 99.99,
+        "category": "Electronics",
         "inStock": true
     }
 ]

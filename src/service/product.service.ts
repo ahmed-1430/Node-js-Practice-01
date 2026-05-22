@@ -1,8 +1,8 @@
 import path from "node:path"
 import fs from "fs"
 
+const filePath = path.join(process.cwd(), "./src/database/db.json")
 export const readProduct = () => {
-    const filePath = path.join(process.cwd(), "./src/database/db.json")
 
     // console.log(filePath);
 
@@ -10,4 +10,8 @@ export const readProduct = () => {
     // console.log(products.toString());
     // console.log(products);
     return JSON.parse(products);
+}
+
+export const insertProduct = (payload: any) => {
+    fs.writeFileSync(filePath, JSON.stringify(payload))
 }
